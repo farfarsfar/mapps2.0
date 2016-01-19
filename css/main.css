@@ -5,8 +5,7 @@
 */
 
 * {
-	width: 100vw;
-	box-sizing: border-box;
+max-width: 100vw;
 }
 
 
@@ -62,7 +61,6 @@ h1, h2, h3, h4 {
 #contact {
 	height: 100vh;
 	background-color: lightcoral;
-	margin: auto;
 }
 
 
@@ -94,6 +92,15 @@ textarea:focus {
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+
+form {
+	background-color: white;
+	padding-left: 40%;
+	background-image: url("http://www.lcipaper.com/kb/wp-content/uploads/colorful-envelope-array.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
 
 .form label {
