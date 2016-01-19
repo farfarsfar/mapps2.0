@@ -9,6 +9,9 @@
 	box-sizing: border-box;
 }
 
+
+/** LITE NOLLSTÄLLNING **/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -17,6 +20,13 @@ body {
 ul {
 	margin-top: 0;
 }
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+/* ALLMÄN STYLING AV STORLEK PÅ KATEGORIERNA */
+
 
 #main-logo-page {
 	height: 100vh;
@@ -89,6 +99,15 @@ textarea:focus {
 .form label {
 	margin-left: 10px;
 	color: #999999;
+}
+
+/* TO TOP */
+
+.to-top {
+    
+    margin: 0 auto;
+    padding-top: 40%;
+    width: 10%;
 }
 
 
