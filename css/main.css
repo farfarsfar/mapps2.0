@@ -25,6 +25,13 @@ h1, h2, h3, h4 {
     margin-top: 0;
 }
 
+
+/******* FONT STYLES *********/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800,300);
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
 /* ALLMÄN STYLING AV STORLEK PÅ KATEGORIERNA */
 
 
