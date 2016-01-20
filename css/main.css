@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 
 #contact {
 	height: 100vh;
-	background-color: lightcoral;
+	background-color: white;
 	background-image: url("../img/contact background.png");
 	background-size: 100vw;
 	background-repeat: no-repeat;
@@ -95,9 +95,9 @@ textarea {
 }
 
 textarea {
-	width: 40%;
+	width: 30%;
 	height: 10%;
-	max-width: 50%;
+	max-width: 70%;
 	line-height: 80px;
 }
 
@@ -112,7 +112,7 @@ textarea:focus {
 }
 
 form {
-	padding-left: 30%;
+	padding-left: 10%;
 	padding-top: 5%;
 	padding-bottom: 10%;
 
