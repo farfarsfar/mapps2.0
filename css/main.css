@@ -38,6 +38,7 @@ font-family: 'Open Sans', sans-serif;
 
 /*///////// PARALLAXBAKGRUND - TEST //////////*/
 
+/*
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -56,7 +57,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .parallax__layer--back {
   transform: translateZ(-10px) scale(2);
-}
+} */
 
 #main-logo-page {
 	height: 100vh;
