@@ -144,7 +144,7 @@ textarea:focus {
 form {
 	padding-left: 10%;
 	padding-top: 5%;
-	padding-bottom: 10%;
+	padding-bottom: 2%;
 
 
 }
@@ -161,6 +161,12 @@ form {
     margin: 0 auto;
     padding-top: 40%;
     width: 10%;
+}
+
+
+#map {
+	padding-left: 10%;
+
 }
 
 
