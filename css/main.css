@@ -107,7 +107,6 @@ ul {
 	text-decoration: none;
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
-
 }
 
 nav li {
@@ -125,6 +124,14 @@ a:hover {
 	text-decoration: none;
 }
 
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited:hover {
+	color: white;
+}
 /*--------------*/
 
 
