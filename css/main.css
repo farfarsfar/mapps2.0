@@ -81,10 +81,82 @@ font-family: 'Open Sans', sans-serif;
     
 }
 
+
+/*--------------*/
+
 #about {
+	background-color: lightblue;
+	background-image: url("http://wallpoper.com/images/00/39/12/48/gaussian-blur_00391248.jpg");
+	background-repeat: fixed;
+}
+
+#about-main {
+	/*background-color: #fff;*/
+	margin: auto;
+	height: 60%;
+	padding-right:10%;
+	padding-left:10%;
+}
+
+section {
+	display-flex: flex;
+}
+
+#about-us { 
+	display: none;
+}
+
+@media (min-width: 600px) {
+	#about {
 	height: 100vh;
 	background-color: lightblue;
+	background-image: url("http://wallpoper.com/images/00/39/12/48/gaussian-blur_00391248.jpg");
+	background-repeat: fixed;
+	}
+	
+	#about-us {
+	background-color: #fff;
+	height: 40%; 
+	display: block;
+	padding: 50px;
+	border-top: 1px dotted black;
+ 	}
+
+	h2 {
+		text-align: center;
+		font-family: 'Megrim', cursive;
+		font-size: 50px;
+	}
+
+	section {
+	  	width: 300px; 	
+	  	float: left;
+	  	padding: 10px;
+	  	margin: 20px;
+	  	border: 1px solid black;
+	}
+
+	section img {
+	    float:left;
+	}
+
+	section h3 {
+		padding: 0;
+		margin: 0;
+		font-family: sans-serif;
+		text-align: left;
+	}
+
+	section p {
+		padding: 0;
+		margin: 0;
+		font-family: sans-serif;
+	}
+
 }
+
+/*---------------------*/
+
 
 #portfolio {
 	height: 100vh;
