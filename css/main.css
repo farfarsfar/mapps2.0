@@ -126,7 +126,8 @@ section {
 	#about {
 	height: 100vh;
 	background-color: lightblue;
-	background-image: url("http://maintenance.io/wp-content/uploads/2014/09/Blurred-Background1.jpg");
+	background-image: url("http://s2.postimg.org/k6sv87cav/background_flipped.jpg");
+	background-position:bottom left;
 	background-repeat: fixed;
 	}
 	
