@@ -25,6 +25,8 @@ h4 {
   margin-top: 0;
   padding-top: 6%;
   text-align: center;
+  font-family: 'Megrim', cursive;
+ 
 }
 
 
@@ -253,6 +255,10 @@ section {
 
 
 /* contact form*/
+
+h2 {
+	font-size: 40px;
+}
 
 input,
 textarea {
