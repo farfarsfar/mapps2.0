@@ -231,7 +231,7 @@ section {
 /*---------------------*/
 
 #portfolio {
-  height: 100vh;
+
   background-color: lightgray;
   display: flex;
   flex-direction: column;
