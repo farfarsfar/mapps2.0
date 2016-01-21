@@ -83,6 +83,20 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+ul {
+	list-style-type: none;
+	background-color: white;
+		padding-left: 25%;
+
+}
+
+li {
+	display: inline;
+	padding: 5%;
+
+}
+
+
 /*--------------*/
 
 /*vad som visas under 600px*/
