@@ -93,14 +93,9 @@ body {
 
 /* CAROUSEL */
 
-.gallery {
-  border: 2px dotted red;
-  background: #EEE;
-}
-
 .gallery img {
   display: block;
-  height: 200px;
+  height: 400px;
   width: 100%;
 }
 
