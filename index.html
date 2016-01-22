@@ -1,89 +1,158 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
-	<link rel="stylesheet" href="css/main.css">
+    
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flickity.css">
+
 </head>
 
 <body>
+  <script src="js/main.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script>
 
-	<div id="main-logo-page">
-        <div class="main-logo">
-            <object type="image/svg+xml" data="img/mapps_logo.svg" class="logo"></object>
-        </div>
+  <div id="main-logo-page parallax">
+    <!--<div class="parallax__layer parallax__layer--back">
+      <h1>LAYER BACK</h1>
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <h1>LAYER BASE</h1>-->
+    <div class="main-logo">
+      <object type="image/svg+xml" data="img/mapps_logo.svg" class="logo"></object>
+    </div>
+  </div>
+
+
+  <nav id="floating-menu">
+    <div id="main-logo-page">
+      <div class="main-logo">
+        <object type="image/svg+xml" data="img/mapps_logo.svg" class="logo"></object>
+      </div>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="#about">Om oss</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+
+        </ul>
+      </nav>
+
     </div>
 
-	
-	
-	<nav id="floating-menu">
+  </nav>
+  <div id="about">
+    <div id="about-main">
+      <header><a href="#about"></a>
+        <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis libero"</h2></header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis libero, interdum sodales risus in, euismod varius ipsum. Phasellus nec auctor felis, varius placerat libero. Suspendisse in porta justo, id elementum dui. Fusce sed efficitur nulla. Proin vitae dapibus leo. Cras porta odio faucibus ipsum egestas, ac pellentesque nibh dignissim. Nam placerat lorem ipsum, ac faucibus augue sodales ac. Praesent et arcu elementum, mattis ipsum non, aliquam nisi. Donec pulvinar sapien at est dignissim aliquam. Sed a tellus quis felis sollicitudin molestie. Phasellus ac ex ornare diam eleifend semper et vel metus. In hac habitasse platea dictumst. Integer laoreet metus leo, in consequat arcu bibendum a. Etiam nunc elit, facilisis id malesuada non, pellentesque a magna. Nulla nec posuere massa.</p>
+    </div>
+    <div id="about-us">
+      <section>
+        <a href="https://www.facebook.com/profile.php?id=100009972464107">
+          <img src="https://scontent-ams2-1.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/c0.21.480.480/p480x480/12274489_192977351044679_3446901940558369221_n.jpg?oh=4114e3b5f9a5dd3565b1ae8dffa39248&oe=57033C83" alt="andrew" style="width:70px;height:70px;">
+        </a>
+        <h3>Andrew</h3>
+        <p>Ghost Writer</p>
+        <p>emailadress@mail.com</p>
+      </section>
 
-	</nav>
-	<div id="about">
-		<header><h2>About us yoo</h2></header>
-		<section></section>
-		<section></section>
-		<section></section>
-		<section></section>
-	</div>
-	<!--<div id="portfolio">
-		<div class="portfolioitem">
-			<img src="img/Portfolio1.jpg">
-			<!--<p>Vi hjälpte det anrika företaget Evil Inc. att ta fram en ny grafisk profil och en app för att nå nya kunder. Här är resultatet.</p>
-		</div>
+      <section>
+        <a href="https://www.facebook.com/anna.glados?fref=ts">
+          <img src="https://scontent-ams2-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12345417_883942058385617_4376926535328629984_n.jpg?oh=f9a85a0ffd8f4e3ced31bb3aa23be4fb&oe=573EA611" alt="anna" style="width:70px;height:70px;">
+        </a>
+        <h3>Anna</h3>
+        <p>Accessibility Specialist</p>
+        <p>emailadress@mail.com</p>
+      </section>
 
-		<div class="portfolioitem">
-			<img src="img/Portfolio2.jpg">
-		</div>
+      <section>
+        <a href="https://www.facebook.com/riksfan?fref=ts">
+          <img src="https://scontent-ams2-1.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/c48.19.384.384/p480x480/12189728_967530126627222_1815945895868886523_n.jpg?oh=c6fa9b7b2d1c514a84f5b2105059cbc6&oe=5736D230" alt="axel" style="width:70px;height:70px;">
+        </a>
+        <h3>Axel</h3>
+        <p>Web analytics developer</p>
+        <p>emailadress@mail.com</p>
+      </section>
 
-		<div class="portfolioitem">
-			<img src="img/Portfolio3.jpg">
-		</div>
-	</div>
--->
-
-	<div id="contact">
-
-		<h2>Kontakta oss</h2>
-
-		<form class="form">
-
-			<p class="name">
-				<input type="text" name="name" id="name" placeholder="Namn" />
-			
-			</p>
-
-			<p class="email">
-				<input type="text" name="email" id="email" placeholder="mail@example.com" />
-		
-			</p>
-
-			<p class="text">
-				<textarea name="text" placeholder="Ställ en fråga"></textarea>
-			</p>
-
-			<p class="submit">
-				<input type="submit" value="Skicka" />
-			</p>
-		</form>
-
-		<div id="map">
-			<div class="to-top"><a href="#main-logo-page">Back to top of page</a></div>
-
-		</div>
-	</div>
+      <section>
+        <a href="https://www.facebook.com/fabian.lundblad?fref=ts">
+          <img src="https://scontent-ams2-1.xx.fbcdn.net/hprofile-xft1/v/t1.0-1/p480x480/10620804_10203681291704190_7099498054499349130_n.jpg?oh=9807513589b6c00e53a16e8a89ceab90&oe=56FCC61A" alt="fabian" style="width:70px;height:70px;">
+        </a>
+        <h3>Fabian</h3>
+        <p>Content Strategist</p>
+        <p>emailadress@mail.com</p>
+      </section>
+    </div>
+  </div>
 
 
+ <div id="portfolio">
+  <a href="#portfolio"></a>
+  <div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
+    <img src="img/bakgrund%201.png" alt="" />
+    <img src="img/bakgrund%202.png" alt="" />
+    <img src="img/bakgrund%203.png" alt="" />
+    <img src="img/bakgrund%204.png" alt="" />
+    <img src="img/bakgrund%205.png" alt="" />
+    <img src="img/bakgrund%206.png" alt="" />
+    <img src="img/bakgrund%207.png" alt="" />
+    <img src="img/bakgrund%208.png" alt="" />
+  </div>
+</div>
+
+  <div id="contact">
+  	<a href="#contact"></a>
+    <h2>Kontakta oss</h2>
 
 
-	<footer>
+    <form class="form">
+      <p>För info, frågor och prisförfrågningar - fyll i formuläret nedan så hör vi av oss!</p>
 
-	</footer>
+      <p class="name ">
+        <input type="text " name="name " id="name " placeholder="Namn " />
+
+        <p class="email ">
+          <input type="text " name="email " id="email " placeholder="mail@example.com " />
+
+        </p>
+
+        <p class="text ">
+          <textarea name="text " placeholder="Ställ en fråga "></textarea>
+        </p>
+
+        <p class="submit ">
+          <input type="submit " value="Skicka " />
+        </p>
+    </form>
+
+    <div id="map">
+
+      <p>Hitta hit!</p>
+      <p>Vi finns på Tomebodavägen 3 i Stockholm.</p>
+      <iframe frameborder="0" scrolling="no" src="https://maps.google.com/maps?hl=en&q= Tomtebodavägen 3A&ie=UTF8&t=roadmap&z=10&iwloc=B&output=embed">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="to-top "><a href="#main-logo-page ">Back to top of page</a></div>
+
+  <footer>
+
+  </footer>
 
 
-	<script src=""></script>
 </body>
+
+
 
 </html>
