@@ -169,13 +169,13 @@ body {
 
 ul {
 	list-style-type: none;
-	background-color: rgba(0,220,255,0.15);
+    background-color: rgba(0,220,255,0.15);
 	opacity: 0.6;
 	text-align: center;
 	padding: 1% 0;
 	text-decoration: none;
 	font-family: 'Amatic SC', cursive;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 nav li {
@@ -345,9 +345,12 @@ form p {
     margin-right: 6%;
 }
 
-.form label {
-  margin-left: 10px;
-  color: #999999;
+
+
+#contact h2 {
+	font-size: 50px;
+    color: rgb(0, 220, 210);
+    text-shadow: 2px 2px rgba(0, 0, 0, .5);
 }
 
 input,
@@ -376,6 +379,11 @@ textarea:focus {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
 }
 
+
+form {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
 
 
 #map {
