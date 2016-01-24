@@ -6,6 +6,7 @@
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
+    
 }
 
 
@@ -134,35 +135,60 @@ body {
 .main-logo svg {
   display: block;
   height: 100%;
-   
-}
-
-.st0 {
-    fill: none;
-    stroke: black;
-    stroke-width: 8;
-}
-
-.st1 {
-    fill: none;
-    stroke: black;
-    stroke-width: 7;
-}
-
-.st2 {
     
+}
+
+#st0,
+#st1,
+#st2,
+#st3 {
+    transition: 1s ease-out;
+}
+
+#st0 {
+    fill: none;
+    stroke: #CCDFC0;
+    stroke-width: 4;
+    
+}
+
+#st1 {
+    fill: none;
+    stroke: #CCDFC0;
+    stroke-width: 4;
+}
+
+#st2 {
+    fill: #387681;
     stroke-width: 10;
 }
 
-.st3 {
+#st3 {
+    fill: #1CDCD2;
 }
+
+@media all and (min-width: 450px) {
+            #st0, #st1 { 
+                stroke: black;
+                stroke-width: 7;
+            }
+            #secondary_content, #primary_content { 
+                fill: #195463; 
+            }
+        }
+        @media all and (min-width: 700px) {
+            
+            
+        }
+        @media all and (min-width: 968px) {
+            
+        }
+
 
 
 /*nav bar*/
 #navbar {
 	margin-top:auto;
-    
-    
     
 }
 
@@ -201,15 +227,19 @@ a:visited {
 a:visited:hover {
 	color: white;
 }
+
+
+
 /*--------------*/
 
 
 /*vad som visas under 600px*/
 
 #about {
-  background-color: #fff;
-  background-image: url("http://maintenance.io/wp-content/uploads/2014/09/Blurred-Background1.jpg");
-  background-repeat: fixed;
+    background-color: #fff;
+    background-image: url("http://maintenance.io/wp-content/uploads/2014/09/Blurred-Background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #about-main {
@@ -325,7 +355,7 @@ section {
 /* contact form*/
 
 #contact {
-  height: 100vh;
+  height: 95vh;
   background-color: white;
   background-image: url("../img/contact background.png");
   background-size: contain;
@@ -400,6 +430,53 @@ form {
 /* TO TOP */
 
 .to-top {
-  margin: 0 auto;
-  width: 40%;
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #387681;
+	border: 1px solid #c2e1f5;
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.to-top::before, .to-top::after {
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+
+}
+
+.to-top:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #387681;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+.to-top:before {
+    border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #c2e1f5;
+	border-width: 33px;
+	margin-left: -33px;
+}
+
+.to-top p {
+  margin: 0;
+    
+}
+
+.to-top p:before {
+   
 }
