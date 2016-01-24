@@ -360,13 +360,16 @@ section {
   background-image: url("../img/contact background.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
 form {
-    width: 100%;
+  width: 100%;
   padding-top: 1%;
   padding-bottom: 2%;
+  max-width: 700px;
+  padding-left: 3%;
 }
 
 form p {
@@ -387,7 +390,7 @@ input,
 textarea {
   padding: 10px;
   border: 1px solid #E5E5E5;
-width: 100%;
+  width: 100%;
   color: #999999;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
@@ -417,7 +420,7 @@ form {
 
 
 #map {
-  width: 90%;
+  	width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
