@@ -427,15 +427,7 @@ textarea:focus {
 }
 
 
-#map {
-  	width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
-#map iframe {
-    width:100%;
-}
 
 
 /* TO TOP */
@@ -492,4 +484,22 @@ textarea:focus {
 
 .to-top p:before {
    
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  display: inline-block;
+}
+
+#map {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+}
+
+#map iframe {
+    width:100%;
 }
