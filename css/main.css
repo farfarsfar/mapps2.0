@@ -181,16 +181,15 @@ ul {
 
 
 /*nav bar*/
-#navbar {
-	margin-top:auto;
+.navbar {
+	
     
 }
 
 
 ul {
 	list-style-type: none;
-    background-color: rgba(0,220,255,0.15);
-	opacity: 0.6;
+    background-color: rgba(0,220,255,0.1);
 	text-align: center;
 	padding: 1% 0;
 	text-decoration: none;
@@ -203,27 +202,40 @@ nav li {
 	padding: 3%;
 }
 
-a:link {
+.navbar a {
+    transition: 0.2s ease-out;
+    
+
+}
+
+.navbar a:link {
 	text-decoration: none;
 	color: black;
 }
 
-a:hover {
+.navbar a:hover {
 	color: white;
 	text-decoration: none;
 }
 
-a:visited {
+.navbar a:visited {
 	text-decoration: none;
 	color: black;
 }
 
-a:visited:hover {
-	color: white;
+
+
+
+@media all and (min-width: 640px) {
+    .navbar a:visited,
+    .navbar a:link {
+        color: #DCE0E1;
+    }
+    
+    .navbar a:hover {
+        color: #1CDCD2;
+    }
 }
-
-
-
 /*--------------*/
 
 
