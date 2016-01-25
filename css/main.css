@@ -371,21 +371,20 @@ section {
 }
 
 form {
-<<<<<<< HEAD
-  width: 100%;
-=======
+
     width: 88%;
     margin: 0 6%;
->>>>>>> origin/master
-  padding-top: 1%;
-  padding-bottom: 2%;
-  max-width: 700px;
-  padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
 }
 
-
-
-
+@media screen and (min-width: 640px) {
+       form {
+           max-width: 700px;
+         padding-left: 5%;
+       }
+    }
 
 #contact h2 {
 	font-size: 50px;
