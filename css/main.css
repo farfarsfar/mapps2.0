@@ -378,11 +378,17 @@ form {
   padding-bottom: 2%;
   max-width: 700px;
   padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
 }
 
-
-
-
+@media screen and (min-width: 640px) {
+       form {
+           max-width: 700px;
+         padding-left: 5%;
+       }
+    }
 
 #contact h2 {
     font-family: 'Megrim', cursive;
