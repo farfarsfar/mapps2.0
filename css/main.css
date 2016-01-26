@@ -489,17 +489,29 @@ textarea:focus {
 /*FOOTER*/
 
 footer {
-  background-color: black;
-  display: inline-block;
+background-color: #3B3F41;
+display: inline-block;
+width: 100%;
+text-align: center;
+padding-top: 3%;
 }
+
+
+footer a {
+  padding: 5%;
+}
+
 
 #map {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: black;
+    background-color: #3B3F41;
+    padding-top: 3%;
 }
+
 
 #map iframe {
     width:100%;
+    pointer-events: none;
 }
