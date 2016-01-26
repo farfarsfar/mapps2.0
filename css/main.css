@@ -218,6 +218,7 @@ nav li {
 
 /*vad som visas under 600px*/
 
+
 #about {
 	background-color: #fff;
 	background-image: url("http://maintenance.io/wp-content/uploads/2014/09/Blurred-Background1.jpg");
@@ -255,56 +256,53 @@ section {
 /* Vad som visas över 600px */
 
 @media (min-width: 600px) {
-	#about {
-		height: 100vh;
-		background-color: lightblue;
-		background-image: url("http://s2.postimg.org/k6sv87cav/background_flipped.jpg");
-		background-position: bottom left;
-		background-attachment: fixed;
-	}
-	#about-us {
-		background-color: #fff;
-		height: 30%;
-		display: block;
-		padding: 50px;
-		border-top: 1px dotted black;
-	}
-	#about-main {
-		margin: auto;
-		height: 70%;
-		padding-right: 10%;
-		padding-left: 10%;
-	}
-	#about-main h2 {
-		text-align: center;
-		font-family: 'Megrim', cursive;
-		color: #fff;
-		text-shadow: 2px 2px rgba(0, 0, 0, .5);
-	}
-	#about-main p {
-		color: #000;
-	}
-	section {
-		width: 370px;
-		float: left;
-		padding-right: 20px;
-		margin: 0px;
-		border: 1px solid black;
-	}
-	section img {
-		float: left;
-	}
-	section h3 {
-		padding: 0;
-		margin: 0;
-		font-family: sans-serif;
-		text-align: left;
-	}
-	section p {
-		padding: 0;
-		margin: 0;
-		font-family: sans-serif;
-	}
+  #about {
+    height: 100vh;
+    background-color: lightblue;
+    background-image: url("http://s2.postimg.org/k6sv87cav/background_flipped.jpg");
+    background-position: bottom left;
+    background-attachment: fixed;
+  }
+  #about-us {
+    display: block;
+    height: 50%;
+  }
+  
+  #about-main {
+    margin: auto;
+    height: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  #about-main h2 {
+    text-align: center;
+    font-family: 'Megrim', cursive;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, .5);
+  }
+  #about-main p {
+    color: #000;
+  }
+}
+
+/*--test-----*/
+
+.wrapper-about {
+	text-align: center;
+}
+
+.shape {
+	width: 300px;
+	height: 300px;
+	background-image: url("https://scontent-ams2-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12345417_883942058385617_4376926535328629984_n.jpg?oh=f9a85a0ffd8f4e3ced31bb3aa23be4fb&oe=573EA611");
+	-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	display: inline;
+}
+
+.shape img {
+	width: 15%;
+	height: 15%;
 }
 
 
