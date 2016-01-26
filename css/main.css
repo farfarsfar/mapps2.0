@@ -224,6 +224,7 @@ nav li {
 	background-image: url("http://maintenance.io/wp-content/uploads/2014/09/Blurred-Background1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+    
 }
 
 #about-main {
@@ -248,31 +249,31 @@ nav li {
 	color: #000;
 }
 
-section {
-	display: flex;
-}
-
 
 /* Vad som visas över 600px */
 
 @media (min-width: 600px) {
   #about {
-    height: 100vh;
+    min-height: 100vh;
     background-color: lightblue;
     background-image: url("http://s2.postimg.org/k6sv87cav/background_flipped.jpg");
     background-position: bottom left;
     background-attachment: fixed;
+    
+     
   }
+    
   #about-us {
     display: block;
     height: 50%;
   }
   
   #about-main {
-    margin: auto;
+    margin: 0 auto;
     height: 50%;
     padding-right: 10%;
     padding-left: 10%;
+      display: block;
   }
   #about-main h2 {
     text-align: center;
@@ -288,7 +289,9 @@ section {
 /*--test-----*/
 
 .wrapper-about {
+    
 	text-align: center;
+    
 }
 
 .shape {
@@ -301,8 +304,8 @@ section {
 }
 
 .shape img {
-	width: 15%;
-	height: 15%;
+	width: 16%;
+	
 }
 
 
@@ -346,7 +349,7 @@ section {
 /* contact form*/
 
 #contact {
-	height: 95vh;
+	min-height: 100vh;
 	background-color: white;
 	background-image: url("../img/contact background.png");
 	background-size: cover;
@@ -357,17 +360,14 @@ section {
 form {
 	width: 88%;
 	margin: 0 6%;
-	padding-top: 1%;
 	padding-bottom: 2%;
 	max-width: 700px;
-	padding-left: 2%;
 	padding-top: 1%;
-	padding-bottom: 2%;
+	position: relative;
 }
 
 @media screen and (min-width: 640px) {
 	form {
-		max-width: 700px;
 		padding-left: 5%;
 	}
 }
@@ -411,9 +411,8 @@ textarea:focus {
 
 .to-top {
 	margin: 0 auto;
-	margin-top;
 	width: 100%;
-	height: 3rem;
+	height: 3em;
 	text-align: center;
 	background: #387681;
 	border: 1px solid #c2e1f5;
